@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bandera de México</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bandera de México</h1>
+
+    <div class="controles">
+        <div class="control">
+            <label>Esperanza</label>
+            <input type="range" id="greenRange" min="0" max="255" value="153">
+            <p id="greenHex">#009900</p>
+        </div>
+
+        <div class="control">
+            <label>Unidad</label>
+            <p>#FFFFFF</p>
+        </div>
+
+        <div class="control">
+            <label>Sangre de nuestros héroes nacionales</label>
+            <input type="range" id="redRange" min="0" max="255" value="157">
+            <p id="redHex">#9D0000</p>
+        </div>
+    </div>
+
+    <div class="bandera">
+        <div class="columna verde" id="verde"></div>
+
+       <div class="columna blanco">
+    <img src="aguila.png" alt="Escudo de México">
+</div>
+
+
+        <div class="columna rojo" id="rojo"></div>
+    </div>
+
+    <footer>
+        <p>Alexander Jahaziel Farias Villa - No. 23200834</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
